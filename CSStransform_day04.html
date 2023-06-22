@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform CSS</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            transition: 4s;
+            background-color: blue;
+            margin-top: 10px;
+            color: rgb(6, 245, 57);
+            font-size: 30px;
+
+        }
+        #Translatediv:hover{
+            transform: translate(100px,100px);
+            background-color: rgb(247, 19, 228);
+
+        }
+        #Rotatediv:hover{
+            transform: rotate(360deg);
+            background-color: rgb(240, 218, 97);
+        }
+        #Rotate3Ddiv:hover{
+            transform: rotate3d(100,50deg,0deg);
+            background-color: rgb(240, 218, 97);
+        }
+        #Skewdiv:hover{
+            transform: Skew(-360deg);
+            background-color: rgb(240, 218, 97);
+        }
+        #Scalediv:hover{
+            transform: scale(.5,.5);
+            background-color: rgb(206, 23, 63);
+        }
+        #Opacitydiv:hover{
+            opacity:text : .6;
+            color : black;
+            background-color : rgba(250, 250, 250, 0.986);
+        }
+        #RGBAdiv:hover{
+            background-color: maroon;
+        }
+        #BoxShadowdiv:hover{
+            box-shadow: 20px 20px 20px black;
+            background-color: rgb(240, 218, 97);
+        }
+        #TextShadowdiv:hover{
+            text-shadow: 5px 5px 5px black;
+            background-color: rgb(240, 218, 97);
+        }
+        #BorderRadiusdiv:hover{
+            border-radius:50%;
+            background-color: rgb(240, 218, 97);
+           
+        }
+        #OverFlowdiv:hover{
+            overflow-block: hidden;
+
+        }
+        
+       
+
+
+
+
+    </style>
+</head>
+<body bgcolor="black">
+    <div>
+        <div id="Translatediv">Translate</div>
+        <div id="Rotatediv" >Rotate </div>
+        <div id="Rotate3Ddiv">Rotate3-D</div>
+        <div id="Skewdiv">Skew</div>
+        <div id="Scalediv">Scale</div>
+        <div id="Opacitydiv">Opacity</div>
+        <div id="RGBAdiv">RGBA</div>
+        <div id="BoxShadowdiv">BoxShadow</div>
+        <div id="TextShadowdiv">TextShadow</div>
+        <div id="BorderRadiusdiv">BorderRadius</div>
+        <div id="OverFlowdiv">OverFlow</div>
+    </div>
+</body>
+</html>
